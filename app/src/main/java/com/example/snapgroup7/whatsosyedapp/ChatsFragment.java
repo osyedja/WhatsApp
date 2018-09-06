@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ChatsFragment extends Fragment {
 
@@ -21,9 +20,29 @@ public class ChatsFragment extends Fragment {
 
         final ListView listView = (ListView)view.findViewById(R.id.chatsLV);
         final ArrayList<ContactNames> contactNamesArrayList = new ArrayList<ContactNames>();
-        contactNamesArrayList.add(new ContactNames("dad","osyed","https://www.attractivepartners.co.uk/wp-content/uploads/2017/06/profile.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 1","osyed","https://www.attractivepartners.co.uk/wp-content/uploads/2017/06/profile.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
+        contactNamesArrayList.add(new ContactNames("Group 2","jaber","https://static.makeuseof.com/wp-content/uploads/2015/11/perfect-profile-picture-all-about-face.jpg","okey"));
 
-        ContactNamesAdapter adapter = new ContactNamesAdapter(getActivity(),contactNamesArrayList);
+        ChatsNamesAdapter adapter = new ChatsNamesAdapter(getActivity(),contactNamesArrayList);
         listView.setAdapter(adapter);
 
 
