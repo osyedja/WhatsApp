@@ -53,8 +53,9 @@ public class ChatsNamesAdapter extends BaseAdapter {
         TextView lastMassage =(TextView) convertView.findViewById(R.id.lastChat);
         ImageView imageView =(ImageView) convertView.findViewById(R.id.profile_image);
 
+
         contactGrOrPer.setText(contactNamesArrayList.get(position).getContactGrOrPer());
-        senderName.setText(contactNamesArrayList.get(position).getSenderName());
+        senderName.setText(contactNamesArrayList.get(position).getSenderName() + ": ");
         lastMassage.setText(contactNamesArrayList.get(position).getLastMassage());
         Log.i("ImageUrl",contactNamesArrayList.get(position).getImageUrl().toString());
 //        Picasso.with(context).load("https://i2.wp.com/beebom.com/wp-content/uploads/2016/01/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg").error(R.drawable.ic_launcher_background)
